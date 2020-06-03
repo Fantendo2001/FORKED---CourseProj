@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hw3", "hw3\hw3.vcxproj", "{535391BF-7980-49D8-A7BE-5FA4839FA12F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{535391BF-7980-49D8-A7BE-5FA4839FA12F}.Debug|x64.ActiveCfg = Debug|x64
+		{535391BF-7980-49D8-A7BE-5FA4839FA12F}.Debug|x64.Build.0 = Debug|x64
+		{535391BF-7980-49D8-A7BE-5FA4839FA12F}.Release|x64.ActiveCfg = Release|x64
+		{535391BF-7980-49D8-A7BE-5FA4839FA12F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C4A41EC-7768-4F50-B5D4-F994B62DBE5C}
+	EndGlobalSection
+EndGlobal

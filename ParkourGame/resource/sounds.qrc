@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>die.wav</file>
+        <file>hit.wav</file>
+        <file>point.wav</file>
+        <file>swooshing.wav</file>
+        <file>jump.wav</file>
+        <file>hudun.wav</file>
+        <file>revive.wav</file>
+        <file>gpachange.wav</file>
+        <file>final.wav</file>
+        <file>quiz.wav</file>
+        <file>clear.wav</file>
+        <file>click.wav</file>
+        <file>dunpai.wav</file>
+    </qresource>
+</RCC>

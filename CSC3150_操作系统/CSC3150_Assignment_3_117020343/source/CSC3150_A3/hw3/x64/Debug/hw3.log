@@ -1,0 +1,59 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (._hw3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Compiling CUDA source file virtual_memory.cu...
+  
+  C:\Users\117020343\Desktop\hw3 v1\hw3\hw3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler "/wd 4819" -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\virtual_memory.cu.obj "C:\Users\117020343\Desktop\hw3 v1\hw3\hw3\virtual_memory.cu" 
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(14): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(15): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(54): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(55): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(64): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(87): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(88): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(97): warning : statement is unreachable
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(115): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(116): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(128): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(145): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(150): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(151): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(164): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(165): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(14): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(15): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(54): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(55): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(64): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(87): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(88): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(97): warning : statement is unreachable
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(115): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(116): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(128): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(145): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(150): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(151): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(164): warning : integer conversion resulted in a change of sign
+C:/Users/117020343/Desktop/hw3 v1/hw3/hw3/virtual_memory.cu(165): warning : integer conversion resulted in a change of sign
+  virtual_memory.cu
+  
+  C:\Users\117020343\Desktop\hw3 v1\hw3\hw3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -dlink -o x64\Debug\hw3.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_30,code=sm_30 -G --machine 64 x64\Debug\main.cu.obj x64\Debug\user_program.cu.obj x64\Debug\virtual_memory.cu.obj 
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  main.cu.obj
+  user_program.cu.obj
+  virtual_memory.cu.obj
+  LINK : C:\Users\117020343\Desktop\hw3 v1\hw3\x64\Debug\hw3.exe not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\117020343\Desktop\hw3 v1\hw3\x64\Debug\hw3.lib and object C:\Users\117020343\Desktop\hw3 v1\hw3\x64\Debug\hw3.exp
+  hw3.vcxproj -> C:\Users\117020343\Desktop\hw3 v1\hw3\x64\Debug\hw3.exe
+  hw3.vcxproj -> C:\Users\117020343\Desktop\hw3 v1\hw3\x64\Debug\hw3.pdb (Full PDB)
